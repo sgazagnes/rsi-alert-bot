@@ -105,7 +105,7 @@ def plot_stock_figure(ticker):
     ax4.set_xticklabels(timestamps[::3], rotation=45, fontsize=8)
     ax4.set_xlabel("Time")
     name = get_company_name(ticker)
-    plt.suptitle(f"{name} - Hourly Technical Indicators (Midstep Style)", fontsize=14)
+    plt.suptitle(f"{name} - Price & Technical Indicators", fontsize=14)
     filename = f'temp_plots/{ticker}_tech_plot.png'
     fig.savefig(filename, dpi=150)
     return filename
