@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+mplfinance
+ta
+yfinance
+requests
+python-telegram-bot

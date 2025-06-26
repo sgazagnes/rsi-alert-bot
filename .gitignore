@@ -1,0 +1,17 @@
+# Ignore temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore notebook junk
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# Ignore OS clutter
+.DS_Store
+Thumbs.db
