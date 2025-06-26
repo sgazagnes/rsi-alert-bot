@@ -82,7 +82,7 @@ CHAT_ID=your_chat_id_here
 ### 6. Run the Bot
 
 ```bash
-python rsi_check.py
+python rsi_bot.py
 ```
 
 The bot will start polling Telegram for messages and respond to your commands.
@@ -92,7 +92,7 @@ The bot will start polling Telegram for messages and respond to your commands.
 
 ```
 rsi-alert-bot/
-├── rsi_check.py                   # Main bot logic and handlers
+├── rsi_bot.py                   # Main bot logic and handlers
 ├── .env.example             # Template for environment variables
 ├── .env                     # Your actual environment variables (not in git)
 ├── ticker_lists/            # Market-specific ticker lists
