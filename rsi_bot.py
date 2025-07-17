@@ -239,7 +239,7 @@ async def rsi_all(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # --- Register commands ---
 app = ApplicationBuilder().token(BOT_TOKEN).build()
 app.add_handler(CommandHandler("rsi_nasdaq", rsi_nasdaq))
-app.add_handler(CommandHandler("rsi_sp500", rsi_nasdaq))
+app.add_handler(CommandHandler("rsi_sp500", rsi_sp500))
 app.add_handler(CommandHandler("rsi_cac", rsi_cac))
 app.add_handler(CommandHandler("rsi_dax", rsi_dax))
 app.add_handler(CommandHandler("rsi_all", rsi_all))
